@@ -58,7 +58,7 @@ body {
   | Logo
   |============================
 */
-.logo.link {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -198,6 +198,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 
   color: var(--title-text-color);
 }
