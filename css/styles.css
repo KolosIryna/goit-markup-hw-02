@@ -186,8 +186,8 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 
   color: var(--title-text-color);
@@ -215,7 +215,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 
   background-color: var(--bgr-cloud);
   color: var(--btn-color);
@@ -223,6 +225,7 @@ body {
 .btn:hover,
 .btn:focus {
   background-color: var(--pressed-state-color);
+  color: var(--withe-text-color);
 }
 /* img */
 
