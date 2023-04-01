@@ -104,8 +104,8 @@ body {
 .address .link {
   color: var(--main-color-text);
 }
-.items .link:hover,
-.items .link:focus {
+.list .link:hover,
+.list .link:focus {
   color: var(--pressed-state-color);
 }
 
