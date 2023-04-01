@@ -55,26 +55,7 @@ body {
 
 /**
   |============================
-  | Menu
-  |============================
-*/
-.menu {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-  color: var(--title-text-color);
-}
-
-.menu .link:hover,
-.menu .link:focus {
-  color: var(--pressed-state-color);
-}
-
-/**
-  |============================
-  | Logo
+  | Header Logo
   |============================
 */
 .logo {
@@ -94,14 +75,31 @@ body {
 .logo-light {
   color: var(--footer-text);
 }
+/**
+  |============================
+  | Header Menu
+  |============================
+*/
+.menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
+  color: var(--title-text-color);
+}
+
+.menu .link:hover,
+.menu .link:focus {
+  color: var(--pressed-state-color);
+}
 /**
   |============================
   | Header address 
   |============================
 */
 
-.list .link {
+.address .link {
   color: var(--main-color-text);
 }
 .list .link:hover,
@@ -147,7 +145,7 @@ body {
 }
 /**
   |============================
-  | Section 1 index.html
+  | Section 2 index.html
   |============================
 */
 
@@ -162,7 +160,7 @@ body {
 
 /**
   |============================
-  | Section 2 index.html
+  | Section 3 index.html
   |============================
 */
 .section-subject {
@@ -178,7 +176,7 @@ body {
 
 /**
   |============================
-  | Section 3 index.html
+  | Section 4 index.html
   |============================
 */
 .sections-page {
@@ -201,7 +199,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  text-transform: capitalize;
 
   color: var(--title-text-color);
 }
@@ -232,14 +229,14 @@ body {
 }
 /* img */
 
-.section-title {
+/* .section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 
   color: var(--title-text-color);
-}
+} */
 
 /**
   |============================
