@@ -95,10 +95,11 @@ body {
   | Header address 
   |============================
 */
-
-.address .link {
-  /* Прибирання курсиву */
+/* Прибирання курсиву */
+.address {
   font-style: normal;
+}
+.address .link {
   color: var(--main-color-text);
 }
 .list .link:hover,
