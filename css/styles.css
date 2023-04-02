@@ -50,11 +50,6 @@ body {
 .list {
   list-style: none;
 }
-/* Прибирання курсиву */
-.address {
-  font-style: normal;
-}
-
 /**
   |============================
   | Header Logo
@@ -102,6 +97,8 @@ body {
 */
 
 .address .link {
+  /* Прибирання курсиву */
+  font-style: normal;
   color: var(--main-color-text);
 }
 .list .link:hover,
@@ -130,7 +127,7 @@ body {
 }
 
 .hero-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -194,7 +191,9 @@ body {
 
   color: var(--title-text-color);
 }
-
+.items {
+  background-color: var(--withe-color);
+}
 .section-heading {
   font-weight: 500;
   font-size: 20px;
@@ -210,10 +209,8 @@ body {
   | Section portfolio.html
   |============================
 */
-
-/* button */
 .btn {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
